@@ -86,7 +86,11 @@ const Rightbar = () => {
           Latest Conversations
         </Typography>
         <List
-          sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
+          sx={{
+            width: '100%',
+            maxWidth: 360,
+            bgcolor: 'background.paper',
+          }}
         >
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
